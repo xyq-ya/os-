@@ -1,0 +1,13 @@
+# Build outputs
+**/build/
+*.o
+*.elf
+*.bin
+
+# QEMU debug logs
+**/qemu.log
+
+# Editor / OS
+.DS_Store
+*.swp
+*~
