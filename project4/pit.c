@@ -6,7 +6,7 @@
 #define PIT_HZ   1193182
 
 void pit_init(void) {
-    // PIT 分频值只有 16 位（最大 65535），1193182/18 会溢出。
+    // PIT 分频值只有 16 位（最大 65535）
     uint32_t divisor = PIT_HZ / 20;
 
     outb(PIT_CMD, 0x36);
