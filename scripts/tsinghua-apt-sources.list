@@ -1,0 +1,15 @@
+# 清华大学 Debian/Ubuntu 镜像源（按需替换 /etc/apt/sources.list 中对应行）
+# 帮助页: https://mirrors.tuna.tsinghua.edu.cn/help/debian/
+#         https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+
+# Debian 12 (bookworm) 示例
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm main contrib non-free non-free-firmware
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-updates main contrib non-free non-free-firmware
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bookworm-backports main contrib non-free non-free-firmware
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bookworm-security main contrib non-free non-free-firmware
+
+# Ubuntu 24.04 (noble) 示例
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-updates main restricted universe multiverse
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-backports main restricted universe multiverse
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-security main restricted universe multiverse

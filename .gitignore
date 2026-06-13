@@ -7,6 +7,9 @@
 # QEMU debug logs
 **/qemu.log
 
+# Local tools (gh from Tsinghua mirror)
+.tools/
+
 # Editor / OS
 .DS_Store
 *.swp
