@@ -18,3 +18,20 @@ make run
 ```
 
 需要：`nasm`、`gcc`（32 位）、`ld`、`qemu-system-i386`。
+
+## 推送到 GitHub（清华镜像加速）
+
+本仓库已配置清华镜像脚本，WSL 下可先安装 `gh`：
+
+```bash
+bash scripts/setup-tsinghua-mirror.sh
+```
+
+登录 GitHub 并创建仓库 `os实验`、推送 project2-4：
+
+```bash
+.tools/usr/bin/gh auth login
+.tools/usr/bin/gh repo create os实验 --public --source=. --remote=origin --push
+```
+
+如需系统 apt 换清华源，参考 `scripts/tsinghua-apt-sources.list`。
